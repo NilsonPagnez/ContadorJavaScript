@@ -1,0 +1,40 @@
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+    border: 2px solid ;
+    transition: 200ms ease-in-out;
+    text-emphasis: none;
+   
+}
+
+button:hover{
+    transition: 200ms ease-in-out;
+
+    border-color: gray;
+    cursor: pointer;
+
+}
+
+#counter {
+
+    display: flex;
+
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
